@@ -1,0 +1,104 @@
+body{
+    padding: 0 20px;
+    background-image: url(https://s3.amazonaws.com/designco-web-assets/uploads/2017/07/Podcast-large_2x-1450x1112.png);
+}
+body:hover{
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+ul > div > li{
+    font-size: 13px;
+}
+#subscribe{
+    width: 110px;
+    height: 40px;
+    border: solid white 1px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    
+    
+    
+}
+#subscribe:hover{
+    cursor: pointer;
+}
+#big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+#content{
+    display: flex;
+   flex-flow: column wrap;
+    justify-content: space-between;
+    
+    width: 40vw;
+    height: 60vh;
+}
+div > h1{
+    align-self: center;
+    color: white;
+    font-size: 40px;
+    font: bold;
+}
+div > p{
+    flex-flow: row wrap;
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+#content > button{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    align-self: center;
+    color: rgb(25, 25, 126);
+}
+#content > button:hover{
+    cursor: pointer;
+}
+img{
+    width: 25px;
+    
+}
+div > img{
+    width: 60px;
+    align-self: center;
+}
+ #links{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    width: 80px;
+    height: 120px;
+    
+    
+    
+} 
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    
+    justify-content: space-between;
+}
+#buttons > img{
+    width: 40px;
+}
+
